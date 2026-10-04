@@ -1,0 +1,11 @@
+[functions.payu-create-payment]
+verify_jwt = true
+entrypoint = "./functions/payu-create-payment/index.ts"
+
+[functions.payu-webhook]
+verify_jwt = false
+entrypoint = "./functions/payu-webhook/index.ts"
+
+[functions.payu-create-series-payment]
+verify_jwt = true
+entrypoint = "./functions/payu-create-series-payment/index.ts"
